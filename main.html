@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <meta name="description" content="SC Tutors">
+        <meta name="keywords" content="tutors, tutoring, spare change, online, school">
+        <meta name="author" content="Aren's Web Dev">
+
+        <title>SC Tutors</title>
+
+        <!-- Google Font "Outfit" -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+        <!-- stylesheet-->
+        <link href="styles/styles.css" rel="stylesheet">
+
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        <!-- mobile overlay -->
+        <div id="overlay">
+            <div>
+                <i class="fa fa-times" title="button to close mobile nav" onclick="off()"></i>
+            </div>
+            <div class="overlay-text">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#team">Meet The Team</a>
+                <a href="https://forms.gle/FzJrFaThnLnpBgoP6" class="contact-nav">Contact</a>
+            </div>
+        </div>
+
+        <header>
+            <nav class="nav full-nav">
+                <div>
+                    <a href="main.html"><img src="images/SpareChangeLogo.png" alt="SC Logo" style="width: 16%;"></a>
+                </div>
+                <div>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#team">Meet The Team</a>
+                    <a href="https://forms.gle/FzJrFaThnLnpBgoP6" class="contact-nav">Contact</a>
+                </div>
+            </nav>
+
+            <!-- mobile -->
+            <nav class="nav mobile-nav">
+                <div>
+                    <a href="main.html"><img src="images/SpareChangeLogo.png" alt="SC Logo" style="width: 12%;"></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars" title="button to open navigation menu" onclick="on()"></i>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <div id="home" class="hero-container">
+                <img class="hero-image" src="images/tutoring.jpg" alt="person tutoring a student" load="lazy">
+                <div class="hero-text">
+                    <h1>SC Tutors</h1>
+                    <a href="https://forms.gle/FzJrFaThnLnpBgoP6" class="hero-button">Contact</a>
+                </div>
+            </div>
+            <div id="about" class="red-spacer"></div>
+        </main>
+
+        <!-- About Us Section-->
+        <div class="subjects">
+            <h1>About Us</h1>
+        </div>
+        <div class="black-box">Welcome to SC Tutors! We're here to help you reach your academic goals with personalized and effective tutoring. Our friendly, experienced educators offer one-on-one and group sessions tailored to your needs, whether it's math, science, languages, or test prep. At SC Tutors, we believe in making learning enjoyable and boosting your confidence. Join us today and see how we can make a difference in your education journey!</div>
+
+        <!-- Slider Displaying Subjects -->
+        <div class="slider">
+            <div class="slide-track">
+
+                <!-- 9 SLIDES/SUBJECTS -->
+
+                <div class="slide">
+                    <img src="images/english.jpg" alt="icon displaying english subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/math.jpg" alt="icon displaying math subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/functions.jpg" alt="icon displaying functions subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/calc.jpg" alt="icon displaying calculus subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/science.jpg" alt="icon displaying science subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/physics.jpg" alt="icon displaying physics subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/bio.jpg" alt="icon displaying biology subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/chemistry.jpg" alt="icon displaying chemistry subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/cs.jpg" alt="icon displaying computer science subject offered" load="lazy">
+                </div>
+
+                <!-- DOUBLED 9 SLIDES/SUBJECTS -->
+
+                <div class="slide">
+                    <img src="images/english.jpg" alt="icon displaying english subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/math.jpg" alt="icon displaying math subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/functions.jpg" alt="icon displaying functions subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/calc.jpg" alt="icon displaying calculus subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/science.jpg" alt="icon displaying science offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/physics.jpg" alt="icon displaying physics subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/bio.jpg" alt="icon displaying biology subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/chemistry.jpg" alt="icon displaying chemistry subject offered" load="lazy">
+                </div>
+                <div class="slide">
+                    <img src="images/cs.jpg" alt="icon displaying computer science subject offered" load="lazy">
+                </div>
+            </div>
+        </div>
+        <div id="team" class="red-spacer"></div>
+        <!-- Meet The Team -->
+        <div class="team">
+            <h1>Meet The Team</h1>
+            <div class="teamphotos">
+                <!-- left arrow -->
+                <button class="arrow left-arrow">&#10094;</button>
+
+                <!-- Photos of the tutors -->
+                <div class="teamslide">
+                    <img id="slide-1" src="images/fullteam.jpg" alt="Group Team photo" load="lazy">
+                    <img id="slide-2" src="images/shuhab.jpg" alt="team member Shuhab" load="lazy">
+                    <img id="slide-3" src="images/haluka.jpg" alt="team member Haluka" load="lazy">
+                    <img id="slide-4" src="images/arian.jpg" alt="team member Arian" load="lazy">
+                    <img id="slide-5" src="images/aren.jpg" alt="team member Aren" load="lazy">
+                    <img id="slide-6" src="images/adam.jpg" alt="team member Adam" load="lazy">
+                    <img id="slide-7" src="images/faith.jpg" alt="team member Faith" load="lazy">
+                </div>
+                
+                <!-- right arrow -->
+                <button class="arrow right-arrow">&#10095;</button>
+
+                <div class="team-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                    <a href="#slide-6"></a>
+                    <a href="#slide-7"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="red-spacer"></div>
+
+        <div class="finalcontact">
+            <h2>...</h2>
+            <h3>if anything here interested you, feel free to...</h3>
+            <a href="https://forms.gle/FzJrFaThnLnpBgoP6" class="hero-button">CONTACT NOW!</a>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footerlogo">
+                <a href="main.html"><img src="images/SpareChangeLogo.png" alt="SC Tutors logo" loading="lazy"></a>
+            </div>
+            <div>
+                <div>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#team">Team</a>
+                    <a href="https://forms.gle/FzJrFaThnLnpBgoP6">Contact</a>
+                </div>
+                <div>
+                    <h4>Copyright 2024 SC Tutors</h4>
+                </div>
+            </div>
+            <!--<div>
+                <img src="images/IGlogo.webp" alt="IG logo" style="width: 10%;" loading="lazy">
+                <img src="images/facebook.webp" alt="Facebook logo" style="width: 10%;" loading="lazy">
+            </div>-->
+        </footer>
+        <script src="scripts/scripts.js" defer></script>
+    </body>
+</html>
