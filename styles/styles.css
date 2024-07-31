@@ -183,7 +183,7 @@ header {
 }
 
 .overlay-text a {
-    display: block;
+    display: inline-block;
     color: white;
     font-weight: 600;
     text-decoration: none;
