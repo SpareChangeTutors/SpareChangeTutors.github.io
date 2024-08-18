@@ -109,6 +109,11 @@ header {
     .black-box:hover {
         transform: scale(1.2);
     }
+
+    .socials {
+        padding-left: 15rem;
+        width: 10%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -161,6 +166,11 @@ header {
     .footerlogo {
         width: 50%;
     }
+
+    .socials {
+        max-width: 25%;
+        padding-left: 3rem;
+    }
 }
 
 /* overlay */
@@ -175,6 +185,7 @@ header {
 }
 
 .overlay-text {
+    max-width: 10rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -241,7 +252,6 @@ header {
 }
 
 .hero-button {
-    margin: 0 .5rem;
     padding: .5rem 2rem;
     background-color: red;
     color: black;
@@ -519,4 +529,3 @@ footer div:nth-child(3) {
 footer div:nth-child(1) img, footer div:nth-child(3) img {
     padding: .5rem;
 }
-
