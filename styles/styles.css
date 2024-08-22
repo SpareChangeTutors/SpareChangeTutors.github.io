@@ -114,6 +114,10 @@ header {
         padding-left: 15rem;
         width: 10%;
     }
+
+    .hero-button {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -170,6 +174,10 @@ header {
     .socials {
         max-width: 25%;
         padding-left: 3rem;
+    }
+
+    .hero-button {
+        font-size: 0.8rem;
     }
 }
 
@@ -257,7 +265,6 @@ header {
     color: black;
     border: none;
     border-radius: 1.5rem;
-    font-size: 1.4rem;
     text-decoration: none;
 }
 
